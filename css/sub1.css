@@ -17,6 +17,11 @@ font-family: 'Rowdies', cursive; */
     color:white;
     font-size: 16px;
 }
+.menuB{
+    font-family: 'Montserrat', sans-serif;
+    color:#222;
+    font-size: 16px;
+}
 .menuW:hover{
     font-family: 'Montserrat', sans-serif;
     color:#5cc8d8;
@@ -40,7 +45,7 @@ header{
     background-color: #222;
     position: fixed;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 #headerlogo{
@@ -60,6 +65,9 @@ header{
     height: 50px;
     margin: 10px;
 }
+header>ul,#headericon{
+    margin-top:25px;
+}
 header>ul>li{
     float: left;
     margin:0px 30px;
@@ -71,13 +79,16 @@ header>ul>li{
 header svg{
     width: 20px;
     height: 20px;
-    margin:5px;
+    margin:0px 10px;
     fill:white;
-}
-header svg:last-child{
-    margin-right: 20px;
+    float: right;
 }
 #headericon{
     width:300px;
     padding-right: 50px;
+}
+.hiddenmenu{
+    /* display: none; */
+    line-height: 200%;
+    border:1px solid black;
 }
