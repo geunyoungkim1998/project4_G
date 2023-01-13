@@ -88,7 +88,9 @@ header svg{
     padding-right: 50px;
 }
 .hiddenmenu{
-    /* display: none; */
+    display: none;
     line-height: 200%;
     border:1px solid black;
+    margin-top:23px;
+    padding: 10px 0px;
 }
