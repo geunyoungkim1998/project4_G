@@ -94,3 +94,6 @@ header svg{
     margin-top:23px;
     padding: 10px 0px;
 }
+.hiddenmenu>li:hover{
+    color:#5cc8d8;
+}
