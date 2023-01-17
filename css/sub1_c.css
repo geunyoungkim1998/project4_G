@@ -42,7 +42,7 @@ font-family: 'Rowdies', cursive; */
     cursor: pointer;
 }
 .blueline{
-    border-bottom:1px solid #018699 ;
+    border-bottom:1px solid #018699;
 }
 
 *{
@@ -114,8 +114,6 @@ header svg:hover{
 .hiddenmenu{
     display: none;
     line-height: 200%;
-    border:1px solid #222;
-    border-top:none;
     margin-top:23px;
     padding: 10px 0px;
 }
@@ -123,6 +121,7 @@ header svg:hover{
     background-color: rgba(255,255,255,1);
     margin-bottom: 10px;
 }
+.topmenu>a:hover,
 .hiddenmenu>li:hover{
     color:#5cc8d8;
 }
