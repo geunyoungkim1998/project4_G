@@ -120,7 +120,8 @@ header svg:hover{
     padding: 10px 0px;
 }
 .hiddenmenu>li{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,1);
+    margin-bottom: 10px;
 }
 .hiddenmenu>li:hover{
     color:#5cc8d8;
