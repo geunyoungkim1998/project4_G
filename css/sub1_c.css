@@ -41,6 +41,9 @@ font-family: 'Rowdies', cursive; */
     color:#5cc8d8;
     cursor: pointer;
 }
+.blueline{
+    border-bottom:1px solid #018699 ;
+}
 
 *{
     margin:0; padding:0;
