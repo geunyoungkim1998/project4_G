@@ -4,10 +4,10 @@ $(document).on('mouseenter','.topmenu',function(){
 }).on('mouseleave','.topmenu',function(){
     $(this).children(".hiddenmenu").stop().slideUp(400).css({"display":"none"});
 });
-$(function(){
-    $(".hiddenmenu").children("li").hover(function(){
-        $(this).parent(".hiddenmenu").siblings("a").css({"color":"#5cc8d8"});
-    },function(){
-        $(".topmenu").children("a").css({"color":"white"});
-    });
-});
+// $(function(){
+//     $(".hiddenmenu").children("li").hover(function(){
+//         $(this).parent(".hiddenmenu").siblings("a").css({"color":"#5cc8d8"});
+//     },function(){
+//         $(this).parent(".hiddenmenu").siblings("a").css({"color":"white"});
+//     });
+// });
