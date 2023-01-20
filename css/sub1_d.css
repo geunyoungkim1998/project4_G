@@ -184,6 +184,9 @@
     width:40%;
     height: auto;
 }
+.sec4TextBox p{
+    line-height: 160%;
+}
 .sec4TextBox input{
     width:120px;
     height: 30px;
@@ -191,9 +194,7 @@
     background-color: #222;
     color: white;
     margin: 0px 10px;
-}
-.sec4TextBox p{
-    line-height: 160%;
+    background: 0 none; 
 }
 
 #sec5{
