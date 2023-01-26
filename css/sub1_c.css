@@ -42,6 +42,7 @@
     border-bottom:1px solid #018699;
 }
 
+/* reset CSS */
 *{
     margin:0; padding:0;
     box-sizing: border-box;
@@ -52,6 +53,7 @@ ul,li,ol{
 }
 a{text-decoration: none;}
 
+/* header */
 header{
     width: 100%;
     height: 70px;
@@ -65,11 +67,11 @@ header{
     z-index: 20;
 }
 #headerlogo{
-    width: 300px;
+    /* width: 300px; */
     height: 70px;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 #headerlogo>a>p{
     width: 200px;
@@ -86,8 +88,8 @@ header>ul,#headericon{
 }
 header>ul>li{
     float: left;
-    margin:0px 30px;
-    width: 130px;
+    /* margin:0px 30px;
+    width: 130px; */
     text-align: center;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -95,7 +97,7 @@ header>ul>li{
 header svg{
     width: 20px;
     height: 20px;
-    margin:0px 10px;
+    /* margin:0px 10px; */
     fill:white;
     float: right;
 }
@@ -104,8 +106,8 @@ header svg:hover{
     cursor: pointer;
 }
 #headericon{
-    width:300px;
-    padding-right: 50px;
+    /* width:300px; */
+    /* padding-right: 50px; */
 }
 .hiddenmenu{
     display: none;
@@ -122,6 +124,7 @@ header svg:hover{
     color:#5cc8d8;
 }
 
+/* footer */
 footer>div{
     width: 100%;
     height: 500px;
@@ -146,7 +149,6 @@ footer>div>ul>li{
     line-height: 200%;
 }
 footer>div>p{
-    width: 1100px;
     margin: 0 auto;
     text-align: center;
     line-height: 160%;
@@ -165,4 +167,95 @@ footer>div>div>svg{
 footer>div>div>svg:hover{
     fill:#5cc8d8;
     cursor: pointer;
+}
+
+@media screen and (max-width:320px){
+    footer>div>p{
+        width: 80%;
+    }
+    header>ul,header>#headericon{
+        display: none;
+    }
+}
+@media screen and (min-width:321px){
+    footer>div>p{
+        width: 80%;
+    }
+    header>ul,header>#headericon{
+        display: none;
+    }
+}
+@media screen and (min-width:600px){
+    footer>div>p{
+        width: 80%;
+    }
+    header>ul,header>#headericon{
+        display: none;
+    }
+}
+@media screen and (min-width:1100px){
+    .topmenu>.mainW_16,
+    .topmenu>.mainB_16{
+        font-size: 14px;
+    }
+
+    footer>div>p{
+        width: 1100px;
+    }
+
+    header>ul,header>#headericon{
+        display: block;
+    }
+    header>ul>li{
+        float: left;
+        margin:0px 15px;
+    }
+    #headerlogo{
+        width: 220px;
+        padding-left: 20px;
+    }
+    #headericon{
+        width:160px;
+        padding-right: 10px;
+    }
+    header svg{
+        margin:0px 5px;
+    }
+    header>ul>li{
+        margin:0px 5px;
+        width: 100px;
+    }
+}
+@media screen and (min-width:1757px){
+    .topmenu>.mainW_16,
+    .topmenu>.mainB_16{
+        font-size: 16px;
+    }
+    
+    footer>div>p{
+        width: 1100px;
+    }
+
+    header>ul,header>#headericon{
+        display: blocksmallmenu;
+    }
+    header>ul>li{
+        float: left;
+        margin:0px 30px;
+    }
+    #headerlogo{
+        width: 300px;
+        padding-left: 50px;
+    }
+    #headericon{
+        width:300px;
+        padding-right: 50px;
+    }
+    header svg{
+        margin:0px 10px;
+    }
+    header>ul>li{
+        margin:0px 30px;
+        width: 130px;
+    }
 }

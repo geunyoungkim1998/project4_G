@@ -15,8 +15,8 @@ function fnSlide() {
 
 setInterval(fnSlide2, 5000);
 function fnSlide2() {
-  $("img[alt='character']:first-child").animate({ "margin-left": "-200px" }, 1200, function () {
-    $("img[alt='character']:first-child").css({ "margin-left": "-20px" });
+  $("img[alt='character']:first-child").animate({ "margin-left": "-230px" }, 1200, function () {
+    $("img[alt='character']:first-child").css({ "margin-left": "-30px" });
     $("img[alt='character']:first-child").insertAfter("img[alt='character']:last-child");
   });
 };
