@@ -174,12 +174,12 @@
     line-height: 160%;
 }
 .sec4TextBox input{
-    width:120px;
+    /* width:120px; */
     height: 30px;
+    margin: 0px 10px;
     border:1px solid white;
     background-color: #222;
     color: white;
-    margin: 0px 10px;
     background: 0 none; 
 }
 
