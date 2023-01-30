@@ -26,10 +26,6 @@
     color: white;
     text-align: center;
 }
-.sec1div1>div>ul{
-    display: flex;
-    margin:0px 30px;
-}
 .sec1div1>div:nth-child(2){
     margin:30px;
 }

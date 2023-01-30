@@ -10,6 +10,13 @@
     .sec1div1>div>input{
         width:110px; 
     }
+    .sec1div1>div>ul{
+        display: flex;
+        margin:0px 10px;
+    }
+    .sec1div1>div:first-child{
+        margin:10px 20px;
+    }
 
     #sec2{
         width:100%;
@@ -41,6 +48,7 @@
     }
     #sec2buybutton>input{
         width:30%;
+        font-size:12px;
     }
     #sec2ex{
         width: 100%;
@@ -64,7 +72,10 @@
     }
     .sec4TextBox input{
         width:100px;
-        margin: 0px 5px;
+        margin-top: 10px;
+        margin-left: 0px;
+        display: block;
+        
     }
 
     #sec6{
@@ -112,6 +123,10 @@
     }
     .sec1div1>div>input{
         width:110px; 
+    }
+    .sec1div1>div>ul{
+        display: flex;
+        margin:0px 20px;
     }
 
     #sec2{
@@ -215,6 +230,10 @@
     .sec1div1>div>input{
         width:150px; 
     }
+    .sec1div1>div>ul{
+        display: flex;
+        margin:0px 30px;
+    }
 
     #sec2{
         width:100%;
@@ -314,6 +333,10 @@
     }
     .sec1div1>div>input{
         width:150px; 
+    }
+    .sec1div1>div>ul{
+        display: flex;
+        margin:0px 30px;
     }
 
     #sec2{
