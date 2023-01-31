@@ -117,24 +117,85 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow:hidden;
+    position: relative;
 }
 .sec3div1{
     width:1100px;
     background-color: #222;
     padding: 20px;
+    position: relative;
+    top:0;
+    left: 0;
 }
 .sec3div2{
     width: 100%;
     height: auto;
     background-color: #222;
-    overflow: hidden;
     display: flex;
+    position: relative;
 }
 .sec3div2>img{
     width: 200px;
     height: auto;
     margin-right: 30px;
+    cursor: pointer;
+    left: 0;
+}
+.sec3div1>p{
+    display: inline-block;
+}
+.sec3div1>button{
+    width:30px;
+    height: 30px;
+    color:white;
+    background-color: #222;
+    border:1px solid white;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+#sec3_1 img[alt="Xicon"]{
+    position: fixed;
+    top:20px;
+    right: 20px;
+    cursor: pointer;
+}
+#sec3_1>div{
+    width: 80%;
+    height: auto;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    background-color: rgba(34,34,34,0.8);
+    border:1px solid white;
+    padding: 20px;
+}
+#sec3_1>div>p:nth-of-type(2){
+    margin: 10px 0px;
+}
+#sec3_1>div>p:nth-of-type(2){
+    text-align: center;
+    margin-top: 30px;
+}
+.cha{
+    display: none;
+}
+.chaT{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.chaT>img{
+    width: 300px;
+}
+.chaT>p{
+    line-height: 160%;
+    width: 40%;
 }
 
 #sec4{

@@ -57,6 +57,10 @@
         width: 100%;
     }
 
+    .chaT>p{
+        width: 80%;
+    }
+
     #sec4{
         height: auto;
     }
@@ -165,6 +169,10 @@
     }
     .sec2table{
         width: 100%;
+    }
+
+    .chaT>p{
+        width: 90%;
     }
 
     #sec4{

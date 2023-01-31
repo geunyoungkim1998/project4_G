@@ -216,6 +216,9 @@ footer>div>div>svg:hover{
     footer>div>p{
         width: 80%;
     }
+    footer{
+        margin-bottom: 0px;
+    }
     header>ul,header>#headericon{
         display: none;
     }
@@ -231,6 +234,9 @@ footer>div>div>svg:hover{
     }
     footer>div>p{
         width: 1100px;
+    }
+    footer{
+        margin-bottom: 0px;
     }
 
     header>ul,header>#headericon{
