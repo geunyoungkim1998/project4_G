@@ -20,31 +20,11 @@ function fnSlide2() {
   $("img[alt='character']:first-child").animate({ "margin-left": "-230px" }, 1200, function () {
     $("img[alt='character']:first-child").css({ "margin-left": "0px" });
     $("img[alt='character']:first-child").insertAfter("img[alt='character']:last-child");
+    $(".cha:first-child").insertAfter(".cha:last-child");
   });
 };
 
-// 캐릭터 슬라이드 클릭시
-$(function(){
-  $("#sec3L").click(function(){
-    $(".sec3div2").stop().animate({"left":"+=230px"});
-    let left=$(".sec3div2").css("left");
-    if(left<="0px"){
-      $("#sec3L").attr("disabled", true).css({"opacity":"0.3"});
-    }else{
-      $("#sec3L").attr("disabled", false).css({"opacity":"1"});
-    }
-  });
-  $("#sec3R").click(function(){
-    $(".sec3div2").stop().animate({"left":"-=230px"});
-    let left=$(".sec3div2").css("left");
-    if(left>="-1610px"){
-      $("#sec3R").attr("disabled", true).css({"opacity":"0.3"});
-    }else{
-      $("#sec3R").attr("disabled", false).css({"opacity":"1"});
-    }
-  });
-});
-
+// 캐릭터 클릭 시 설명
 $(function(){
   $("img[alt='character']").click(function(){
     var i=$("img[alt='character']").index(this);
