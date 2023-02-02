@@ -59,6 +59,7 @@
 
     .chaT>p{
         width: 80%;
+        font-size: 12px;
     }
 
     #sec4{
@@ -173,6 +174,7 @@
 
     .chaT>p{
         width: 90%;
+        font-size: 12px;
     }
 
     #sec4{
@@ -281,6 +283,10 @@
         width: 100%;
     }
 
+    .chaT>p{
+        font-size: 16px;
+    }
+
     #sec4{
         height: auto;
     }
@@ -381,6 +387,10 @@
     }
     .sec2table{
         width: 320px;
+    }
+
+    .chaT>p{
+        font-size: 16px;
     }
 
     #sec4{

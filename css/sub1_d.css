@@ -44,6 +44,10 @@
     height: auto;
     background-color: #222;
 }
+.sec2div1>iframe{
+    width:760px;
+    height: 500px;
+}
 #sec2slide{
     display: flex;
     overflow: hidden;
@@ -99,14 +103,22 @@
 #sec2buybutton>input{
     height: 50px;
     margin: 5px 0px;
+    transition:0.2s ease;
 }
 #sec2buybutton>input:first-child{
-    background-color: #018699;
-    border: 1px solid #018699;
+    background-color: #5cc8d8;
+    border: 1px solid #5cc8d8;
+}
+#sec2buybutton>input:first-child:hover{
+    background-color: #666;
 }
 #sec2buybutton>input:not(:first-child){
     border:1px solid white;
     background-color: #666;
+}
+#sec2buybutton>input:not(:first-child):hover{
+    background-color: #5cc8d8;
+    border:1px solid #5cc8d8
 }
 
 #sec3{
@@ -196,7 +208,9 @@
 .chaT>p{
     line-height: 160%;
     width: 40%;
+    margin-top: 20px;
 }
+
 
 #sec4{
     width:100%;
@@ -231,13 +245,16 @@
     line-height: 160%;
 }
 .sec4TextBox input{
-    /* width:120px; */
     height: 30px;
     margin: 0px 10px;
     border:1px solid white;
     background-color: #222;
     color: white;
     background: 0 none; 
+    transition: 0.2s ease;
+}
+.sec4TextBox input:hover{
+    background-color: #5cc8d8;
 }
 
 #sec5{
@@ -339,6 +356,10 @@
     color: white;
     margin-top: 20px;
     margin-right: 20px;
+    transition: 0.2s ease;
+}
+.sec7review>div>input:hover{
+    background-color: #5cc8d8;
 }
 .sec7review>div:nth-last-child(1){
     display: flex;
